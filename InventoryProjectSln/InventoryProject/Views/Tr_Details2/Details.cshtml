@@ -1,0 +1,66 @@
+﻿@model InventoryProject.Models.Tr_Details
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tr_Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Qty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Qty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Commission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Commission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BookGroup.MainBookName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookGroup.MainBookName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Book.BookName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Book.BookName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tr_Masters.MemoNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tr_Masters.MemoNo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Tr_DetailID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

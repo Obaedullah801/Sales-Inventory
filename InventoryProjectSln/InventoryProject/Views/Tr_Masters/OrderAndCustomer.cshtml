@@ -1,0 +1,571 @@
+﻿
+@model IEnumerable<InventoryProject.Models.Tr_Masters>
+
+@{
+    //Layout = "~/Views/DashBoard/DashBoard.cshtml";
+    ViewBag.Title = "OrderAndCustomer";
+}
+
+   @* <script type="text/javascript" src="https://www.google.com/jsapi"></script>*@
+    <div class="panel panel-default" style="width:100%">
+        <div class="panel-heading">
+            <div class="row">
+                <h2 class="panel-title pull-left" style="margin-left:20px;">
+                    <strong>Order Details</strong>
+                </h2>
+                <button style="margin-right:10px" class="btn btn-primary pull-right" onclick="addNewOrder()">New Order</button>
+            </div>
+        </div>
+
+        @*Receive All Database Data From Controller And Display Those Data In Client Side*@
+        <div id="accordion">
+            @if (Model.Count() != 0)
+            {
+                foreach (var item in Model)
+                {
+                    
+                    <h3>
+                        Order Date: @item.Tr_Date
+                       <span class="pull-right">&nbsp; Serial No: @item.SL_NO</span>
+                    </h3>
+    <div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-5">
+
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Customer Details:</h6>
+                    <table id="tblCustomers">
+                        <tr>
+                            <th>Name:</th>
+                            <th>Address:</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td style="display:none" class="Tr_MasterID">
+                                <span>@item.Tr_MasterID</span>
+                            </td>
+
+                            <td class="ClientID">
+                                <span class="ClientID">@item.ClientID</span>
+
+                                <input type="text" class="from-control" value="@item.ClientID" style="display:none" />
+                            </td>
+                            <td class="DistrictID">
+                                <span>@item.DistrictID</span>
+
+                                <input type="text" class="from-control" value="@item.DistrictID" style="display:none" />
+                            </td>
+                            <td>
+                                <a class="Edit btn btn-warning btn-sm" href="javascript:;">Edit</a>
+                                <a class="Update btn btn-info btn-sm" href="javascript:;" style="display:none">Update</a>
+                                <a class="Cancel btn btn-danger btn-sm" href="javascript:;" style="display:none">Cancel</a>
+                            </td>
+
+
+                        </tr>
+                    </table>
+                    @*<div>
+                        <strong>Client Name: @item.Commission</strong>
+                    </div>
+                    <div>Address:<span style="text-decoration:underline;">@item.Commission</span></div>
+                    <div>@Html.ActionLink(" ", "EditCustomer", new { id = item.Commission }, new { @class = "btn btn-warning btn-sm" })</div>*@
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel-body">
+
+            <table class="table table-striped table-responsive">
+                <tbody>
+                    <tr>
+                        <td colspan="3">
+                            <div class="table-responsive-sm">
+                                <table class="table table-striped css-serial">
+
+                                    <tr>
+                                        <th>BookID</th>
+                                        <th>BookName</th>
+                                        <th>BookGroupID</th>
+                                        <th>BookGroupName</th>
+                                        <th>Quantity</th>
+                                        <th>Unit Price</th>
+                                        <th>Commission</th>
+                                        <th>Total</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    @{
+                    var totalBill = 0;
+                                    }
+                                    @foreach (var order in item.Tr_Details)
+                                    {
+                                        <tbody>
+                                            <tr>
+                                                <td>@order.BookID</td>
+                                                <td>@order.Book.BookName</td>
+                                                <td>@order.BookGroupID</td>
+                                                <td>@order.BookGroup.MainBookName</td>
+                                                <td>@order.Qty</td>
+                                                <td>@order.Rate</td>
+                                                <td>@order.Commission</td>
+                                                <td>@order.Amount</td>
+                                                <td class="btn btn-warning btn-sm">Edit</td>
+                                                
+                                                @*<td>@Html.ActionLink</td>*@
+                                            </tr>
+                                        </tbody>
+                                        //totalBill = totalBill + @Convert.ToInt32(order.Qty * order.Rate);
+                                        totalBill = totalBill + @Convert.ToInt32(order.Amount);
+                                    }
+
+                                </table>
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-5">
+
+                                    </div>
+
+                                    <div class="col-lg-3 col-sm-5 ml-auto">
+                                        <table class="table table-clear">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="">
+                                                        <strong>Total Bill :</strong>
+                                                    </td>
+                                                    <td class="">
+                                                        <strong>@totalBill</strong>
+                                                    </td>
+                                                         @*<span class="pull-right" style="margin-right:100px;"><strong>Total Bill :  </strong> @totalBill</span>*@
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+                }
+            }
+
+            else
+            {
+        <div class="panel-body">
+            <br />
+            <br />
+            <h3 style="color:red;">Empty!</h3>
+        </div>
+               
+    }
+    </div>
+
+</div>
+
+    <div class="modal fade" id="newOrderModal">
+        <div class="modal-dialog modal-lg" style=" width: 1000px !important;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="" style="background-color:#0094ff">
+                        <h4 style="align-content:center; color:white;float:left; margin-left:10px">Sales Form</h4>
+                        <a href="#" class="close" data-dismiss="modal" style="float:right; margin-right:10px; margin-top:5px; color:#ff0000">&times;</a>
+                        <h5 style="color:white; float:right; margin-top:5px; margin-right:5px">Add New Order</h5>
+                    </div>
+                    <form id="NewOrderForm" style="background-color: #e1eaea; border-bottom: 2px solid black">
+                        <div class="modal-body" style="background-color: #e1eaea;">
+
+                            @*<div class="form-horizontal">*@
+                                <input type="hidden" id="CustomerId" />
+
+                                <fieldset style="background-color:skyblue">
+
+                                    <legend style="color: #0026ff; margin-left: 15px">Customer Details</legend>
+
+                                    <label class="control-label col-md-1" style="float:left">
+                                        District:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <select id="districtId" name="districtId" style=" width: 100px; height: 25px"> <option></option></select>
+                                    </div>
+                                    <label class="col-md-1.5" style="float:left">
+                                        Party Code:
+                                    </label>
+                                    <div class="col-md-3" style="float:left">
+                                        <select id="clientID" name="clientID" style=" width: 100px; height: 25px"><option></option></select>
+                                    </div>
+                                    <label class="col-md-1" style="float:left">
+                                        Date:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="date" name="date" placeholder="" style="height: 25px; width: 100px; font-size: 12px" />
+                                        @*<span class="error" style="height:0px">Valid Order Date required(ex: MM-dd-yyyy)</span>*@
+                                    </div>
+                                </fieldset>
+
+                            @*</div>*@
+
+                            @*Order Details*@
+
+
+                            <div class="form-horizontal">
+                                <fieldset style="background-color:skyblue">
+                                    <legend style="margin-left:15px">Order Details</legend>
+                                    <input type="hidden" id="OrderId" />
+
+                                    @*<div style="float:left; height:100px">
+
+                                <select id="BookID" name="register_id" class="form-control search-select" required="required">
+                                <option value="">&nbsp;</option>
+                                <? $query=$this->dba->get_dropdown('register',array('BookID','BookName'));
+                                foreach($query as $key=>$value):
+                                ?>
+                                <option value="<?=$key?>"><?=$value; ?></option>}
+                                <? endforeach;?>
+                            </select>
+
+
+                            </div>*@
+
+                                    <table>
+                                        <tr>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Quantity</p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px; ">Code</p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px"> Book Group </p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Code</p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Book Name </p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Stock </p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Rate</p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Commission </p></td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Sale Rate</p> </td>
+                                            <td style="width: 200px; height: 25px; background-color: skyblue; color: black; text-align: center"><p style="font-size: 12px">Total</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="number" style="float: left; width: 78px; height: 25px" id="price" name="price" placeholder="" /></td>
+
+                                            <td><input style="width:39px; height: 25px" /></td>
+                                            <td><select id="BookGroupID" style="float: left; width: 78px; height: 25px" name="MainBookName"> <option></option></select></td>
+                                            <td><input style="width:39px; height: 25px" /></td>
+                                            <td><select id="BookID" style="float: left; width: 100px; height: 25px" name="BookName"> <option></option></select></td>
+                                            <td><input style="width:39px; height: 25px" /></td>
+                                            <td><input type="number" style="float: left; width: 60px; height: 25px" id="quantity" name="quantity" placeholder="" /></td>
+                                            <td><input type="number" style="float: left; width: 78px; height: 25px" id="commission" name="commission" placeholder="" /></td>
+                                            <td><input style="width:60px; height: 25px" /></td>
+                                            <td><input style="width:78px; height: 25px" /></td>
+                                            <td><button id="addToList" type="submit" class="btn btn-primary" style="color:aqua">AddToList</button></td>
+                                        </tr>
+
+                                    </table>
+
+
+
+
+                                </fieldset>
+
+                                <table id="detailsTable" class="table table-bordered table-hover table-striped table-responsive">
+                                    <thead>
+                                        @*<tr style="background-color: rgb(154, 246, 166); color: black; font-weight: bold">
+                                    <th style="width:20%; font-size:12px">Qty</th>
+                                    <th style="width: 20%; font-size: 12px">Code</th>
+                                    <th style="width: 20%; font-size: 12px">BookGroup</th>
+                                    <th style="width: 20%; font-size: 12px">Code</th>
+                                    <th style="width: 20%; font-size: 12px">BookName</th>
+                                    <th style="width: 10%; font-size: 12px">Stock</th>
+                                    <th style="width: 10%; font-size: 12px">Rate</th>
+                                    <th style="width: 15%; font-size: 12px">(%)</th>
+                                    <th style="width: 15%; font-size: 12px">SaleRate</th>
+                                    <th style="width: 15%; font-size: 12px">Total</th>
+                                    <th style="width: 10%; font-size: 12px">Action</th>
+                                </tr>*@
+                                    </thead>
+                                    <tbody></tbody>
+                                    @* style="background-color: #d7f2f3; font-size: 12px"*@
+                                </table>
+                            </div>
+
+                            @*//............*@
+                            <div class="form-horizontal">
+
+                                <div style="border:1px solid black; height:105px; width:220px; float:right; margin-right:30px">
+                                    <div style="float:left; height:15px">
+                                        <label class="control-label col-md-2" style=" font-size:10px">
+                                            TotalPrice:
+                                        </label>
+                                        <div id="grandTotal" style="height:20px; font-size:10px; margin-top:4px; width:50px; float: right" class="form-control">
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div style="float:left; height:15px">
+                                        <div style="float:left; margin-left:14px; margin-right:2px">
+                                            <label class="control-label col-md-0" style="float:left; font-size:10px">
+                                                Commission:
+                                            </label>
+                                        </div>
+                                        <input type="text" id="commission2" name="commission2" value="" placeholder="%" class="form-control" style="height: 15px; float: left; width: 50px; font-size: 10px" />
+                                        <input type="text" id="commissionTotal" name="commissionTotal" value="" placeholder="" class="form-control" style="height:15px;float:right; width:50px; font-size:10px" />
+                                    </div>
+                                    <div style="float: left; height: 15px;">
+                                        <label class="control-label col-md-1" style="float:left; font-size:10px">
+                                            SubTotal:
+                                        </label>
+                                        <div class="col-md-1" style="float: left; margin-left: 24px">
+                                            <input type="text" id="subTotal" name="" placeholder="" class="form-control" style="height:15px; width:50px; font-size:10px" />
+                                        </div>
+                                    </div>
+                                    <div style="float: left; height: 15px">
+                                        <label class="control-label col-md-1" style="float:left; font-size:10px">
+                                            Less:
+                                        </label>
+                                        <div class="col-md-1" style="float: left; margin-left: 24px">
+                                            <input type="text" id="less" name="less" value="" placeholder="" class="form-control" style="height:15px; width:50px; font-size:10px" />
+                                        </div>
+                                    </div>
+                                    <div style="float: left; height: 15px">
+                                        <label class="control-label col-md-1" style="float:left; font-size:10px">
+                                            Return:
+                                        </label>
+                                        <div class="col-md-1" style="float: left; margin-left: 24px">
+                                            <input id="returnLess" name="returnLess" value="" placeholder="" class="form-control" style="height:15px; width:50px; font-size:10px" />
+                                        </div>
+                                    </div>
+                                    <div style="float: left; height: 15px">
+                                        <label class="control-label col-md-1" style="float:left; font-size:10px">
+                                            NetBill:
+                                        </label>
+                                        <div class="col-md-1" style="float: left; margin-left: 24px">
+                                            <input type="text" id="netAmount" value="" placeholder="" class="form-control" style="height:15px; width:50px; font-size:10px" />
+                                            <input type="hidden" id="hiddenNetAmount" value="0" />
+                                            <input type="hidden" id="hiddenlessNetAmount" value="0" />
+                                            <input type="hidden" id="hiddenSubtotal" value="0" />
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr />
+                            </div>
+
+                        </div>
+
+                        <div class="" style="float:right">
+                            <button type="reset" class="btn btn-default" data-dismiss="modal" style="color:black; margin-bottom:20px">Close</button>
+                            <button id="saveOrder" type="submit" class="btn btn-default" style="border: White;background-color:rgb(0, 255, 33); color: #0026ff; margin-bottom: 20px; margin-right:20px">Save Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @section scripts{
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+    @*<script src="~/Scripts/jquery.validate.min.js"></script>*@
+        <script src="~/Scripts/CustomiseScripts/Book.js"></script>
+        <script src="~/Scripts/CustomiseScripts/BookGroup.js"></script>
+        <script src="~/Scripts/CustomiseScripts/Districts.js"></script>
+        <script src="~/Scripts/CustomiseScripts/Clients.js"></script>
+        <script src="~/Scripts/sub.js"></script>
+
+        @*<script src="~/Scripts/CustomiseScripts/BookGroup.js"></script>*@
+        <script src="~/Scripts/CustomiseScripts/DistrictWiseClient.js"></script>
+        <script src="~/Scripts/CustomiseScripts/BookGroupWiseBook.js"></script>
+        
+
+  
+    @*For Date picker*@
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <style>
+        span.error {
+            display:inline-block;
+            visibility: hidden;
+            color: red;
+            font-size: 90%;
+        }
+
+        tr.error {
+            background-color: rgba(255,0,0,0.35);
+        }
+    </style>
+    
+     
+        
+        <script type="text/javascript">
+
+            //
+            $(function () {
+                $("#accordion").accordion();
+            });
+            //
+            $(function () {
+                if ($("#tblCustomers tr").length > 0) {
+                    //$("tblCustomers tr:eq(0)").remove();
+                }
+                else{
+                    var row = $("tblCustomers tr:last-child");
+                    row.find(".Edit").hide();
+                    
+                    row.find(".span").html('&nbsp;');
+                }
+            });
+            function AppendRow(row, customerId, name, country) {
+                //Bind CustomerId
+                $(".Tr_MasterID", row).find("span").html(customerId);
+                //Bind Name
+                $(".ClientID", row).find("span").html(name);
+                $(".ClientID", row).find("input").val(name);
+                // District ID
+                $(".DistrictID", row).find("span").html(country);
+                $(".DistrictID", row).find("input").val(country);
+
+                row.find(".Edit").show();
+                row.find(".Delete").show();
+                $("#tblCustomers").append(row);
+            };
+            //Edit event hendler.
+            $("body").on("click", "#tblCustomers .Edit", function () {
+                var row = $(this).closest("tr");
+                $("td", row).each(function () {
+                    if ($(this).find("input").length > 0) {
+                        $(this).find("input").show();
+                        $(this).find("span").hide();
+                    }
+                });
+                row.find(".Update").show();
+                row.find(".Cancel").show();
+                
+                $(this).hide();
+            });
+
+            //Show Modal.
+            function addNewOrder() {
+                $("#newOrderModal").modal();
+            }
+            // DatePicker
+            $(function () {
+                $('#date').datepicker({
+                    dateFormat: 'mm-dd-yy'
+                })
+            })
+
+            // After Add A New Order In The List, If You Want, You Can Remove It.
+            $(document).on('click', 'a.deleteItem', function (e) {
+                e.preventDefault();
+                var $self = $(this);
+                if ($(this).attr('data-itemId') == "0") {
+                    $(this).parents('tr').css("background-color", "#ff6347").fadeOut(800, function () {
+                        $(this).remove();
+                    });
+                }
+            });
+
+            //After Click Save Button Pass All Data View To Controller For Save Database
+            function saveOrder(data) {
+                
+                var myNewTab = window.open('about:blank', '_blank');
+                
+                return $.ajax({
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    type: 'POST',
+                    url: "/Tr_Masters/SaveOrder",
+                    data: data,
+                    success: function (result) {
+                        alert(result);
+                        location.reload();
+                        myNewTab.location.href = "../ReportWebForm.aspx";
+                        //window.open("~/ReportWebForm.aspx","_blank");
+                    },
+                    error: function () {
+                        alert("Error!")
+                    }
+                });
+            }
+            //Collect Multiple Order List For Pass To Controller
+            $("#saveOrder").click(function (e) {
+                e.preventDefault();
+
+                var orderArr = [];
+                orderArr.length = 0;
+
+                $.each($("#detailsTable tbody tr"), function () {
+                    orderArr.push({
+                        BookID: $(this).find('td:eq(0)').html(),
+                        BookName: $(this).find('td:eq(1)').html(),
+                        BookGroupID: $(this).find('td:eq(2)').html(),
+                        MainBookName: $(this).find('td:eq(3)').html(),
+                        Qty: $(this).find('td:eq(4)').html(),
+                        Rate: $(this).find('td:eq(5)').html(),
+                        Commission: $(this).find('td:eq(6)').html(),
+                        Amount: $(this).find('td:eq(7)').html()
+
+                    });
+                });
+
+
+                var data = JSON.stringify({
+                    invoiceNo: $("#invoiceNo").val(),
+                    memoNo: $("#memoNo").val(),
+                    date: $("#date").val(),
+                    less: $("#less").val(),
+                    districtId: $("#districtId").val(),
+                    clientID: $("#clientID").val(),
+                    packdebit: $("#packdebit").val(),
+                    //returnLess: $("#returnLess").val(),
+                    salesType: $("#salesType").val(),
+                    commission2: $("#commission").val(),
+                    netAmount: $("#netAmount").val(),
+                    
+
+                    Tr_Detail: orderArr
+                });
+
+                $.when(saveOrder(data)).then(function (response) {
+                    console.log(response);
+                }).fail(function (err) {
+                    console.log(err);
+                });
+            });
+
+
+
+            
+            //var text = "";
+            //var i;
+            //for (i = 0; i < 5; i++) {
+            //    text += "The number is " + i + "<br>";
+            //}
+            //document.getElementById("demo").innerHTML = text;
+            
+            function EditStudentRecord(StudentId) {
+                var url = "/Home/GetStudentById?StudentId=" + StudentId;
+                $("#ModalTitle").html("Update Student Record");
+                $("#MyModal").modal();
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    success: function (data) {
+                        var obj = JSON.parse(data);
+                        $("#StuId").val(obj.StudentId);
+                        $("#StuName").val(obj.StudentName);
+                        $("#Email").val(obj.Email);
+                        $("#DropDwn option:selected").text(obj.tblDepartment.DepartmentName);
+                        $("#DropDwn option:selected").val(obj.DepartmentId);
+
+                    }
+                })
+            }
+
+
+
+
+        </script>
+         
+    }
+
+

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Tr_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BookGroup">
+    <Key>
+      <PropertyRef Name="BookGroupID" />
+    </Key>
+    <Property Name="BookGroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MainBookName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Class" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_BOOK_INFO_MAIN_BOOK" FromRole="BookGroups" ToRole="Books" />
+    <NavigationProperty Name="Tr_Details" Relationship="Self.FK_Tr_Details_BookGroups1" FromRole="BookGroups" ToRole="Tr_Details" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookGroupID" Type="Int32" />
+    <Property Name="BookName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Commission" Type="Int32" />
+    <Property Name="BookOpnBalance" Type="Int32" />
+    <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="ReturnRate" Type="Int32" />
+    <Property Name="BookForma" Type="Int32" />
+    <NavigationProperty Name="BookGroup" Relationship="Self.FK_BOOK_INFO_MAIN_BOOK" FromRole="Books" ToRole="BookGroups" />
+    <NavigationProperty Name="Tr_Details" Relationship="Self.FK_Tr_Details_Books1" FromRole="Books" ToRole="Tr_Details" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="DistrictID" Type="Int32" />
+    <Property Name="ContactNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClientOpnBalance" Type="Int32" />
+    <Property Name="ClientType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TrDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="District" Relationship="Self.FK_PARTY_DISTRICT" FromRole="Clients" ToRole="Districts" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Self.FK_Tr_Masters_Clients" FromRole="Clients" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="District">
+    <Key>
+      <PropertyRef Name="DistrictID" />
+    </Key>
+    <Property Name="DistrictID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DistrictName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DivisionID" Type="Int32" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK_PARTY_DISTRICT" FromRole="Districts" ToRole="Clients" />
+    <NavigationProperty Name="Division" Relationship="Self.FK_DISTRICT_DIVSSION" FromRole="Districts" ToRole="Divisions" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Self.FK_Tr_Masters_Districts" FromRole="Districts" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="Division">
+    <Key>
+      <PropertyRef Name="DivisionID" />
+    </Key>
+    <Property Name="DivisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DivisionName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Districts" Relationship="Self.FK_DISTRICT_DIVSSION" FromRole="Divisions" ToRole="Districts" />
+  </EntityType>
+  <EntityType Name="MoneyReceipt">
+    <Key>
+      <PropertyRef Name="MR_ID" />
+    </Key>
+    <Property Name="MR_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MR_No" Type="String" MaxLength="8" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="Tr_MasterID" Type="Int32" />
+    <Property Name="PartyCode" Type="Int32" />
+    <Property Name="EntryDate" Type="DateTime" Precision="0" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Self.FK_MoneyReceipt_Tr_Masters" FromRole="MoneyReceipt" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tr_Details">
+    <Key>
+      <PropertyRef Name="Tr_DetailID" />
+    </Key>
+    <Property Name="Tr_DetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tr_MasterID" Type="Int32" Nullable="false" />
+    <Property Name="BookGroupID" Type="Int32" />
+    <Property Name="BookID" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Rate" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Commission" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="BookGroup" Relationship="Self.FK_Tr_Details_BookGroups1" FromRole="Tr_Details" ToRole="BookGroups" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_Tr_Details_Books1" FromRole="Tr_Details" ToRole="Books" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Self.FK_Tr_Details_Tr_Masters" FromRole="Tr_Details" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="Tr_Masters">
+    <Key>
+      <PropertyRef Name="Tr_MasterID" />
+    </Key>
+    <Property Name="Tr_MasterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tr_Date" Type="DateTime" Precision="3" />
+    <Property Name="SL_NO" Type="String" MaxLength="8" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="DistrictID" Type="Int32" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="PackDebit" Type="Int32" />
+    <Property Name="Less" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ReturnLessMemoNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="InvoiceNo" Type="Int32" />
+    <Property Name="BindID" Type="Int32" />
+    <Property Name="OrderID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Commission" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_Tr_Masters_Clients" FromRole="Tr_Masters" ToRole="Clients" />
+    <NavigationProperty Name="District" Relationship="Self.FK_Tr_Masters_Districts" FromRole="Tr_Masters" ToRole="Districts" />
+    <NavigationProperty Name="MoneyReceipts" Relationship="Self.FK_MoneyReceipt_Tr_Masters" FromRole="Tr_Masters" ToRole="MoneyReceipt" />
+    <NavigationProperty Name="Tr_Details" Relationship="Self.FK_Tr_Details_Tr_Masters" FromRole="Tr_Masters" ToRole="Tr_Details" />
+  </EntityType>
+  <Association Name="FK_BOOK_INFO_MAIN_BOOK">
+    <End Role="BookGroups" Type="Self.BookGroup" Multiplicity="0..1" />
+    <End Role="Books" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroups">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Details_BookGroups1">
+    <End Role="BookGroups" Type="Self.BookGroup" Multiplicity="0..1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroups">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Details_Books1">
+    <End Role="Books" Type="Self.Book" Multiplicity="0..1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PARTY_DISTRICT">
+    <End Role="Districts" Type="Self.District" Multiplicity="0..1" />
+    <End Role="Clients" Type="Self.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Districts">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Masters_Clients">
+    <End Role="Clients" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DISTRICT_DIVSSION">
+    <End Role="Divisions" Type="Self.Division" Multiplicity="0..1" />
+    <End Role="Districts" Type="Self.District" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisions">
+        <PropertyRef Name="DivisionID" />
+      </Principal>
+      <Dependent Role="Districts">
+        <PropertyRef Name="DivisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Masters_Districts">
+    <End Role="Districts" Type="Self.District" Multiplicity="0..1" />
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Districts">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MoneyReceipt_Tr_Masters">
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="0..1" />
+    <End Role="MoneyReceipt" Type="Self.MoneyReceipt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tr_Masters">
+        <PropertyRef Name="Tr_MasterID" />
+      </Principal>
+      <Dependent Role="MoneyReceipt">
+        <PropertyRef Name="Tr_MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Details_Tr_Masters">
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tr_Masters">
+        <PropertyRef Name="Tr_MasterID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="Tr_MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Tr_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BookGroups" EntityType="Self.BookGroup" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Clients" EntityType="Self.Client" />
+    <EntitySet Name="Districts" EntityType="Self.District" />
+    <EntitySet Name="Divisions" EntityType="Self.Division" />
+    <EntitySet Name="MoneyReceipts" EntityType="Self.MoneyReceipt" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Tr_Details" EntityType="Self.Tr_Details" />
+    <EntitySet Name="Tr_Masters" EntityType="Self.Tr_Masters" />
+    <AssociationSet Name="FK_BOOK_INFO_MAIN_BOOK" Association="Self.FK_BOOK_INFO_MAIN_BOOK">
+      <End Role="BookGroups" EntitySet="BookGroups" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Details_BookGroups1" Association="Self.FK_Tr_Details_BookGroups1">
+      <End Role="BookGroups" EntitySet="BookGroups" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Details_Books1" Association="Self.FK_Tr_Details_Books1">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PARTY_DISTRICT" Association="Self.FK_PARTY_DISTRICT">
+      <End Role="Districts" EntitySet="Districts" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Masters_Clients" Association="Self.FK_Tr_Masters_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DISTRICT_DIVSSION" Association="Self.FK_DISTRICT_DIVSSION">
+      <End Role="Divisions" EntitySet="Divisions" />
+      <End Role="Districts" EntitySet="Districts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Masters_Districts" Association="Self.FK_Tr_Masters_Districts">
+      <End Role="Districts" EntitySet="Districts" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MoneyReceipt_Tr_Masters" Association="Self.FK_MoneyReceipt_Tr_Masters">
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+      <End Role="MoneyReceipt" EntitySet="MoneyReceipts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Details_Tr_Masters" Association="Self.FK_Tr_Details_Tr_Masters">
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <FunctionImport Name="sp_Tr_MasterDetail" ReturnType="Collection(Tr_DBModel.sp_Tr_MasterDetail_Result)" />
+  </EntityContainer>
+  <ComplexType Name="sp_Tr_MasterDetail_Result">
+    <Property Type="Int32" Name="Tr_MasterID" Nullable="false" />
+    <Property Type="DateTime" Name="Tr_Date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="SL_NO" Nullable="true" MaxLength="8" />
+    <Property Type="Int32" Name="DistrictID" Nullable="true" />
+    <Property Type="String" Name="DistrictName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+    <Property Type="String" Name="ClientName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="BookID" Nullable="true" />
+    <Property Type="String" Name="BookName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="BookGroupID" Nullable="true" />
+    <Property Type="String" Name="MainBookName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Qty" Nullable="true" />
+    <Property Type="Decimal" Name="Rate" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Commission" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Amount" Nullable="true" Precision="18" Scale="0" />
+  </ComplexType>
+</Schema>

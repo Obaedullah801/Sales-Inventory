@@ -1,0 +1,84 @@
+﻿.navbar-inner {
+    margin-bottom: 0px;
+    min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #399a1e;
+    filter: none;
+    text-shadow: 1px 1px 1px #0a0c0e;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    *zoom: 1;
+    border-bottom: 1px solid #38383D; /* rgba(0, 0, 0, 0.05); */
+}
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > ul > li > a {
+    padding: 15px 10px 14px 10px;
+    color: #fff;
+    border-top: none;
+    border-bottom: 1px solid #d2ff52;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+.nav-tabs.nav-stacked > li:last-child > a {
+    border-bottom: 1px solid transparent;		
+}
+
+.nav-tabs.nav-stacked > li > ul > li > a{
+    padding: 15px 10px 14px 10px;
+    display: block;
+}
+
+.nav-tabs.nav-stacked > li > a > i,
+.nav-tabs.nav-stacked > li > ul > li > a > i {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    color: #399a1e;
+    font-size: 16px;
+}
+
+.nav-tabs.nav-stacked > li > ul > li > a > i {
+    font-size: 20px;
+}
+
+.nav-tabs.nav-stacked > li > a:hover > i {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-color: #b4ddb4;
+    /*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";*/
+}
+
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > ul > li > a:hover {
+    color: #b4ddb4;
+}
+
+.nav-tabs.nav-stacked  > li.active > a,
+.nav-tabs.nav-stacked  > li > ul > li.active > a {
+    background: #080808;
+    border-bottom: 1px solid #2D89EF;
+}
+.dropdown-menu .divider {
+    *width: 100%;
+    height: 1px;
+    margin: 0px 1px;
+    *margin: -5px 0 5px;
+    overflow: hidden;
+    background-color: #b4ddb4;
+    border-bottom: 1px solid #ffffff;
+}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: #2D89EF;
+}

@@ -1,0 +1,115 @@
+﻿@model InventoryProject.Models.Tr_Details
+
+@{
+    ViewBag.Title = "AddOrEdit";
+    Layout = null;
+}
+
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddOrEdit</title>
+</head>
+<body>*@
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+    @using (Html.BeginForm("AddOrEdit", "Tr_Details", FormMethod.Post, new { enctype = "multipart/form-data", onSubmit = "jQueryAjaxPost(this);", data_resetUrl = Url.Action("AddOrEdit", "Employee", new { @id = 0 }) }))
+    // , data_resetUrl = Url.Action("AddOrEdit", "Tr_Details", new { @id = 0 })
+    {
+        @Html.AntiForgeryToken()
+     
+        
+        
+        
+            <div class="row">
+                <div class="form-horizontal">
+                    <h4>Tr_Details</h4>
+                    <hr />
+                    @Html.ValidationSummary(true)
+                    @Html.HiddenFor(model => model.Tr_DetailID)
+
+                    <div class="col-md-6">
+                         <div class="form-group">
+                            @Html.LabelFor(model => model.Tr_MasterID, "Tr_MasterID", new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownList("Tr_MasterID", String.Empty, new { htmlAttributes = new { @class = "form-control", @id = "Name"} })
+                                @Html.ValidationMessageFor(model => model.Tr_MasterID)
+                            </div>
+                        </div>
+
+                         <div class="form-group">
+                            @Html.LabelFor(model => model.BookGroupID, "BookGroupID", new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownList("BookGroupID", String.Empty, new { htmlAttributes = new { @class = "form-control", @id = "Name"} })
+                                @Html.ValidationMessageFor(model => model.BookGroupID)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.BookID, "BookID", new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownList("BookID", String.Empty, new { htmlAttributes = new { @class = "form-control", @id = "Name"} })
+                                @Html.ValidationMessageFor(model => model.BookID)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Qty, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Qty, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                                @Html.ValidationMessageFor(model => model.Qty)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Rate, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Rate, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                                @Html.ValidationMessageFor(model => model.Rate)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Commission, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Commission, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                                @Html.ValidationMessageFor(model => model.Commission)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Save" class="btn btn-default" id="formData" />
+                                @if(Model.Tr_DetailID !=0)
+                                {
+                                   <a class="btn btn-success" onclick="refreshAddNewTab('@Url.Action("AddOrEdit", "Tr_Details", new {id= 0 })', false)"><i class="fa fa-plus">Add New</i></a>
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h1 id="massage"></h1>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          @*  @Html.LabelFor(model => model.Rate, new { @class = "control-label col-md-2" })*@
+                            <div class="col-md-10">
+                                @*<img src="@Url.Content(Model.Rate.ToString())" style="margin:10px" height="200" width="200" id="imagePreview" />*@
+                                <input type="file" name="ImageUpload" accept="image/jpeg, image/png" onchange="ShowImagePreview(this, document.getElementById('imagePreview'))" />
+                            </div>
+                        </div>
+                    </div>
+           </div>
+
+     </div>
+    }
+@*<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>*@
+                @*<div>
+                    @Html.ActionLink("Back to List", "Index")
+                </div>*@
+                @*</body>
+            </html>*@

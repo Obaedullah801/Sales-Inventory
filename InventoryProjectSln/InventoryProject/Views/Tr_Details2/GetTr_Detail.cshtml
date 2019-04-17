@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>GetTr_Detail</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    @*<link href="~/Content/css/dataTablemin.css" rel="stylesheet" />*@
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css">
+
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+</head>
+    
+<body>
+
+    <div style="width:90%; margin: 0 auto">
+        <table id="myDataTable">
+            <thead></thead>
+            <tr>
+                <th>Tr_DetailID</th>
+                <th>Tr_MasterID</th>
+                <th>BookGroupID</th>
+                <th>BookID</th>
+                <th>Qty</th>
+                <th>Rate</th>
+                <th>Commission</th>
+            </tr>
+           
+        </table>
+    </div>
+    @*<script src="~/Scripts/js/jqu331.js"></script>*@
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
+    @*<script src="~/Scripts/js/jqu11013.js"></script>*@
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var Tr_DTablData = $('#myDataTable').DataTable({
+                "ajax": {
+                    "url": '/Tr_Detail/GetTr_Detail',
+                    "data": "get",
+                    "dataType": "json"
+                },
+                "columns": [
+                    { "data": "Tr_DetailID", "autowidth": true },
+                    { "data": "Tr_MasterID", "autowidth": true },
+                    { "data": "BookGroupID", "autowidth": true },
+                    { "data": "BookID", "autowidth": true },
+                    { "data": "Qty", "autowidth": true },
+                    { "data": "Rate", "autowidth":true },
+                    { "data": "Commission", "autowidth":true }
+                ]
+
+            })
+        })
+    </script>
+        
+
+</body>
+
+</html>

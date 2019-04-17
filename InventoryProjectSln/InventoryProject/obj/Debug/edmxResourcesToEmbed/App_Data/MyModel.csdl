@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Tr_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Tr_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BookGroups" EntityType="Tr_DBModel.BookGroup" />
+    <EntitySet Name="Books" EntityType="Tr_DBModel.Book" />
+    <EntitySet Name="Clients" EntityType="Tr_DBModel.Client" />
+    <EntitySet Name="Districts" EntityType="Tr_DBModel.District" />
+    <EntitySet Name="Tr_Details" EntityType="Tr_DBModel.Tr_Details" />
+    <EntitySet Name="Tr_Masters" EntityType="Tr_DBModel.Tr_Masters" />
+    <AssociationSet Name="FK_BOOK_INFO_MAIN_BOOK" Association="Tr_DBModel.FK_BOOK_INFO_MAIN_BOOK">
+      <End Role="BookGroup" EntitySet="BookGroups" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_DTL_MAIN_BOOK" Association="Tr_DBModel.FK_TRAN_DTL_MAIN_BOOK">
+      <End Role="BookGroup" EntitySet="BookGroups" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_DTL_BOOK_INFO" Association="Tr_DBModel.FK_TRAN_DTL_BOOK_INFO">
+      <End Role="Book" EntitySet="Books" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PARTY_DISTRICT" Association="Tr_DBModel.FK_PARTY_DISTRICT">
+      <End Role="District" EntitySet="Districts" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_MST_PARTY" Association="Tr_DBModel.FK_TRAN_MST_PARTY">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_MST_DISTRICT" Association="Tr_DBModel.FK_TRAN_MST_DISTRICT">
+      <End Role="District" EntitySet="Districts" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Detail_Tr_Master" Association="Tr_DBModel.FK_Tr_Detail_Tr_Master">
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <EntitySet Name="Divisions" EntityType="Tr_DBModel.Division" />
+    <AssociationSet Name="FK_DISTRICT_DIVSSION" Association="Tr_DBModel.FK_DISTRICT_DIVSSION">
+      <End Role="Division" EntitySet="Divisions" />
+      <End Role="District" EntitySet="Districts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BookGroup">
+    <Key>
+      <PropertyRef Name="BookGroupID" />
+    </Key>
+    <Property Name="BookGroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MainBookName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Class" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Books" Relationship="Tr_DBModel.FK_BOOK_INFO_MAIN_BOOK" FromRole="BookGroup" ToRole="Book" />
+    <NavigationProperty Name="Tr_Details" Relationship="Tr_DBModel.FK_TRAN_DTL_MAIN_BOOK" FromRole="BookGroup" ToRole="Tr_Details" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookGroupID" Type="Int32" />
+    <Property Name="BookName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Commission" Type="Int32" />
+    <Property Name="BookOpnBalance" Type="Int32" />
+    <Property Name="AuthorName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="ReturnRate" Type="Int32" />
+    <Property Name="BookForma" Type="Int32" />
+    <NavigationProperty Name="BookGroup" Relationship="Tr_DBModel.FK_BOOK_INFO_MAIN_BOOK" FromRole="Book" ToRole="BookGroup" />
+    <NavigationProperty Name="Tr_Details" Relationship="Tr_DBModel.FK_TRAN_DTL_BOOK_INFO" FromRole="Book" ToRole="Tr_Details" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="DistrictID" Type="Int32" />
+    <Property Name="ContactNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClientOpnBalance" Type="Int32" />
+    <Property Name="ClientType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TrDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="District" Relationship="Tr_DBModel.FK_PARTY_DISTRICT" FromRole="Client" ToRole="District" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Tr_DBModel.FK_TRAN_MST_PARTY" FromRole="Client" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="District">
+    <Key>
+      <PropertyRef Name="DistrictID" />
+    </Key>
+    <Property Name="DistrictID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DistrictName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DivisionID" Type="Int32" />
+    <NavigationProperty Name="Clients" Relationship="Tr_DBModel.FK_PARTY_DISTRICT" FromRole="District" ToRole="Client" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Tr_DBModel.FK_TRAN_MST_DISTRICT" FromRole="District" ToRole="Tr_Masters" />
+    <NavigationProperty Name="Division" Relationship="Tr_DBModel.FK_DISTRICT_DIVSSION" FromRole="District" ToRole="Division" />
+  </EntityType>
+  <EntityType Name="Tr_Details">
+    <Key>
+      <PropertyRef Name="Tr_DetailID" />
+    </Key>
+    <Property Name="Tr_DetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tr_MasterID" Type="Int32" />
+    <Property Name="BookGroupID" Type="Int32" />
+    <Property Name="BookID" Type="Int32" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="Rate" Type="Int32" />
+    <Property Name="Commission" Type="Int32" />
+    <NavigationProperty Name="BookGroup" Relationship="Tr_DBModel.FK_TRAN_DTL_MAIN_BOOK" FromRole="Tr_Details" ToRole="BookGroup" />
+    <NavigationProperty Name="Book" Relationship="Tr_DBModel.FK_TRAN_DTL_BOOK_INFO" FromRole="Tr_Details" ToRole="Book" />
+    <NavigationProperty Name="Tr_Masters" Relationship="Tr_DBModel.FK_Tr_Detail_Tr_Master" FromRole="Tr_Details" ToRole="Tr_Masters" />
+  </EntityType>
+  <EntityType Name="Tr_Masters">
+    <Key>
+      <PropertyRef Name="Tr_MasterID" />
+    </Key>
+    <Property Name="Tr_MasterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tr_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MemoNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DistrictID" Type="Int32" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="PackDebit" Type="Int32" />
+    <Property Name="Less" Type="Int32" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ReturnLessMemoNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="InvoiceNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="BindID" Type="Int32" />
+    <Property Name="OrderID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Commission" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="Tr_DBModel.FK_TRAN_MST_PARTY" FromRole="Tr_Masters" ToRole="Client" />
+    <NavigationProperty Name="District" Relationship="Tr_DBModel.FK_TRAN_MST_DISTRICT" FromRole="Tr_Masters" ToRole="District" />
+    <NavigationProperty Name="Tr_Details" Relationship="Tr_DBModel.FK_Tr_Detail_Tr_Master" FromRole="Tr_Masters" ToRole="Tr_Details" />
+  </EntityType>
+  <Association Name="FK_BOOK_INFO_MAIN_BOOK">
+    <End Type="Tr_DBModel.BookGroup" Role="BookGroup" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Book" Role="Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroup">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_DTL_MAIN_BOOK">
+    <End Type="Tr_DBModel.BookGroup" Role="BookGroup" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Tr_Details" Role="Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroup">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_DTL_BOOK_INFO">
+    <End Type="Tr_DBModel.Book" Role="Book" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Tr_Details" Role="Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PARTY_DISTRICT">
+    <End Type="Tr_DBModel.District" Role="District" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Client" Role="Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="District">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_MST_PARTY">
+    <End Type="Tr_DBModel.Client" Role="Client" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Tr_Masters" Role="Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_MST_DISTRICT">
+    <End Type="Tr_DBModel.District" Role="District" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Tr_Masters" Role="Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="District">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Detail_Tr_Master">
+    <End Type="Tr_DBModel.Tr_Masters" Role="Tr_Masters" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.Tr_Details" Role="Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tr_Masters">
+        <PropertyRef Name="Tr_MasterID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="Tr_MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Division">
+    <Key>
+      <PropertyRef Name="DivisionID" />
+    </Key>
+    <Property Name="DivisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DivisionName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Districts" Relationship="Tr_DBModel.FK_DISTRICT_DIVSSION" FromRole="Division" ToRole="District" />
+  </EntityType>
+  <Association Name="FK_DISTRICT_DIVSSION">
+    <End Type="Tr_DBModel.Division" Role="Division" Multiplicity="0..1" />
+    <End Type="Tr_DBModel.District" Role="District" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Division">
+        <PropertyRef Name="DivisionID" />
+      </Principal>
+      <Dependent Role="District">
+        <PropertyRef Name="DivisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

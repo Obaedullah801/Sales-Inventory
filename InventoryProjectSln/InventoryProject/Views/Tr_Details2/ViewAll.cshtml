@@ -1,0 +1,102 @@
+﻿@model IEnumerable<InventoryProject.Models.Tr_Details>
+
+
+@{
+    Layout = null;
+}
+
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAll</title>
+</head>
+<body>*@
+    @*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+    <table class="table table-striped table-condensed" id="employeeTable">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Commission)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookGroup.MainBookName)
+                
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book.BookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tr_Masters.MemoNo)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Qty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Commission)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookGroup.MainBookName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Book.BookName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tr_Masters.MemoNo)
+                </td>
+                <td>
+                    <a class="btn btn-primary btn-sm" onclick="Edit('@Url.Action("AddOrEdit", "Tr_Details", new { id = @item.Tr_DetailID})')"><i class="fa fa-pencil fa-lg"></i></a>
+                    <a class="btn btn-danger btn-sm" onclick="Delete('@Url.Action("Delete", "Tr_Details", new { id = @item.Tr_DetailID })')"><i class="fa fa-trash fa-lg"></i></a>
+                    @*@Html.ActionLink("Edit", "Edit", new { id=item.Tr_DetailID }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.Tr_DetailID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.Tr_DetailID })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                title: setData,
+                html: true,
+                placement: 'right'
+            });
+            function setData(id) {
+                var set_Data = '';
+                var element = attr(id);
+                $.ajax({
+                    url: "/Tr_Details/ViewAll?id" + id,
+                    method: 'POST',
+                    async: false,
+                    data: { id: id },
+                    success: function (data) {
+                        set_Data = data;
+
+                    }
+                });
+                return set_Data;
+            }
+        });
+    </script>
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@*</body>
+</html>*@

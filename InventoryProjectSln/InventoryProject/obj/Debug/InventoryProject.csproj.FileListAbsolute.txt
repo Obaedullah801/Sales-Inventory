@@ -1,0 +1,1002 @@
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\ApplicationInsights.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\1Obaedullah_software\C# Work\New_InventoryProject\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\ApplicationInsights.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\ApplicationInsights.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\visual\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\1Obaedullah_software\C# Work\New_InventoryProject\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+C:\Users\micron\Desktop\Obaedullah\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+C:\Users\micron\Desktop\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\obaedullah\New folder (5)\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\obaedullah\New folder (5)\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\1Obaedullah_software\C# Work\Final_Report\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.csprojResolveAssemblyReference.cache
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\Project\BITM CLASS\practice\Final\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll.config
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\InventoryProject.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\InventoryProject.pdb
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csc.exe.config
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csc.rsp
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csi.exe.config
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\csi.rsp
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.AppContext.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Console.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Compression.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.IO.Pipes.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.AccessControl.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Claims.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.ValueTuple.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.exe.config
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\vbc.rsp
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\EntityFramework.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.Common.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\WebGrease.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\EntityFramework.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\EntityFramework.SqlServer.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.Web.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.ApplicationInsights.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Helpers.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Mvc.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Optimization.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.Razor.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Deployment.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\System.Web.WebPages.Razor.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Newtonsoft.Json.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Antlr3.Runtime.pdb
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.cache
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\obj\Debug\RdlCompile.compiled
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.dll
+D:\Project\BITM CLASS\practice\Final_NoProblem\Sales&Inventory\InventoryProjectSln\InventoryProject\obj\Debug\InventoryProject.pdb

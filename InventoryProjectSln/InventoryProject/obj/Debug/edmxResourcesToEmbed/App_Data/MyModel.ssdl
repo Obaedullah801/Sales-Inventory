@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Tr_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BookGroups">
+    <Key>
+      <PropertyRef Name="BookGroupID" />
+    </Key>
+    <Property Name="BookGroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MainBookName" Type="varchar" MaxLength="50" />
+    <Property Name="Class" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Books">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookGroupID" Type="int" />
+    <Property Name="BookName" Type="varchar" MaxLength="1" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Commission" Type="int" />
+    <Property Name="BookOpnBalance" Type="int" />
+    <Property Name="AuthorName" Type="varchar" MaxLength="1" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="ReturnRate" Type="int" />
+    <Property Name="BookForma" Type="int" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientName" Type="varchar" MaxLength="200" />
+    <Property Name="Address" Type="varchar" MaxLength="500" />
+    <Property Name="DistrictID" Type="int" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="ClientOpnBalance" Type="int" />
+    <Property Name="ClientType" Type="varchar" MaxLength="20" />
+    <Property Name="TrDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Districts">
+    <Key>
+      <PropertyRef Name="DistrictID" />
+    </Key>
+    <Property Name="DistrictID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DistrictName" Type="varchar" MaxLength="50" />
+    <Property Name="DivisionID" Type="int" />
+  </EntityType>
+  <EntityType Name="Divisions">
+    <Key>
+      <PropertyRef Name="DivisionID" />
+    </Key>
+    <Property Name="DivisionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DivisionName" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Tr_Details">
+    <Key>
+      <PropertyRef Name="Tr_DetailID" />
+    </Key>
+    <Property Name="Tr_DetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tr_MasterID" Type="int" />
+    <Property Name="BookGroupID" Type="int" />
+    <Property Name="BookID" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="Rate" Type="int" />
+    <Property Name="Commission" Type="int" />
+  </EntityType>
+  <EntityType Name="Tr_Masters">
+    <Key>
+      <PropertyRef Name="Tr_MasterID" />
+    </Key>
+    <Property Name="Tr_MasterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tr_Date" Type="date" Nullable="false" />
+    <Property Name="MemoNo" Type="varchar" MaxLength="10" />
+    <Property Name="DistrictID" Type="int" />
+    <Property Name="ClientID" Type="int" />
+    <Property Name="PackDebit" Type="int" />
+    <Property Name="Less" Type="int" />
+    <Property Name="Type" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ReturnLessMemoNo" Type="varchar" MaxLength="20" />
+    <Property Name="InvoiceNo" Type="varchar" MaxLength="10" />
+    <Property Name="BindID" Type="int" />
+    <Property Name="OrderID" Type="varchar" MaxLength="10" />
+    <Property Name="Commission" Type="int" />
+  </EntityType>
+  <Association Name="FK_BOOK_INFO_MAIN_BOOK">
+    <End Role="BookGroups" Type="Self.BookGroups" Multiplicity="0..1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroups">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DISTRICT_DIVSSION">
+    <End Role="Divisions" Type="Self.Divisions" Multiplicity="0..1" />
+    <End Role="Districts" Type="Self.Districts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisions">
+        <PropertyRef Name="DivisionID" />
+      </Principal>
+      <Dependent Role="Districts">
+        <PropertyRef Name="DivisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PARTY_DISTRICT">
+    <End Role="Districts" Type="Self.Districts" Multiplicity="0..1" />
+    <End Role="Clients" Type="Self.Clients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Districts">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tr_Detail_Tr_Master">
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="0..1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tr_Masters">
+        <PropertyRef Name="Tr_MasterID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="Tr_MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_DTL_BOOK_INFO">
+    <End Role="Books" Type="Self.Books" Multiplicity="0..1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_DTL_MAIN_BOOK">
+    <End Role="BookGroups" Type="Self.BookGroups" Multiplicity="0..1" />
+    <End Role="Tr_Details" Type="Self.Tr_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookGroups">
+        <PropertyRef Name="BookGroupID" />
+      </Principal>
+      <Dependent Role="Tr_Details">
+        <PropertyRef Name="BookGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_MST_DISTRICT">
+    <End Role="Districts" Type="Self.Districts" Multiplicity="0..1" />
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Districts">
+        <PropertyRef Name="DistrictID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="DistrictID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRAN_MST_PARTY">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="0..1" />
+    <End Role="Tr_Masters" Type="Self.Tr_Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Tr_Masters">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Tr_DBModelStoreContainer">
+    <EntitySet Name="BookGroups" EntityType="Self.BookGroups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Books" EntityType="Self.Books" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Districts" EntityType="Self.Districts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Divisions" EntityType="Self.Divisions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tr_Details" EntityType="Self.Tr_Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tr_Masters" EntityType="Self.Tr_Masters" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BOOK_INFO_MAIN_BOOK" Association="Self.FK_BOOK_INFO_MAIN_BOOK">
+      <End Role="BookGroups" EntitySet="BookGroups" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DISTRICT_DIVSSION" Association="Self.FK_DISTRICT_DIVSSION">
+      <End Role="Divisions" EntitySet="Divisions" />
+      <End Role="Districts" EntitySet="Districts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PARTY_DISTRICT" Association="Self.FK_PARTY_DISTRICT">
+      <End Role="Districts" EntitySet="Districts" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tr_Detail_Tr_Master" Association="Self.FK_Tr_Detail_Tr_Master">
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_DTL_BOOK_INFO" Association="Self.FK_TRAN_DTL_BOOK_INFO">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_DTL_MAIN_BOOK" Association="Self.FK_TRAN_DTL_MAIN_BOOK">
+      <End Role="BookGroups" EntitySet="BookGroups" />
+      <End Role="Tr_Details" EntitySet="Tr_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_MST_DISTRICT" Association="Self.FK_TRAN_MST_DISTRICT">
+      <End Role="Districts" EntitySet="Districts" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRAN_MST_PARTY" Association="Self.FK_TRAN_MST_PARTY">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Tr_Masters" EntitySet="Tr_Masters" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

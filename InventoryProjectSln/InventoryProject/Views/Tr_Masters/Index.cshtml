@@ -1,0 +1,99 @@
+﻿@model IEnumerable<InventoryProject.Models.Tr_Masters>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tr_Date)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.MemoNo)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.PackDebit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Less)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReturnLessMemoNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InvoiceNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BindID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Commission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Client.ClientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.District.DistrictName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tr_Date)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.MemoNo)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.PackDebit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Less)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReturnLessMemoNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InvoiceNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BindID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Commission)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Client.ClientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.District.DistrictName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Tr_MasterID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Tr_MasterID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Tr_MasterID })
+        </td>
+    </tr>
+}
+
+</table>

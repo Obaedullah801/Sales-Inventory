@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d94bbf81e272446f9be8f6767331b764" Name="Diagram1">
+        <EntityTypeShape EntityType="Tr_DBModel.BookGroup" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.Book" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.Client" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.District" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.Division" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.MoneyReceipt" Width="1.5" PointX="9.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.Tr_Details" Width="1.5" PointX="12.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_DBModel.Tr_Masters" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="Tr_DBModel.FK_BOOK_INFO_MAIN_BOOK" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_Tr_Details_BookGroups1" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_Tr_Details_Books1" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_PARTY_DISTRICT" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_Tr_Masters_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_DISTRICT_DIVSSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_Tr_Masters_Districts" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_MoneyReceipt_Tr_Masters" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_DBModel.FK_Tr_Details_Tr_Masters" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Tr_DBModelStoreContainer" CdmEntityContainer="Tr_DBEntities">
+    <EntitySetMapping Name="BookGroups">
+      <EntityTypeMapping TypeName="Tr_DBModel.BookGroup">
+        <MappingFragment StoreEntitySet="BookGroups">
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="MainBookName" ColumnName="MainBookName" />
+          <ScalarProperty Name="BookGroupID" ColumnName="BookGroupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="Tr_DBModel.Book">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="BookForma" ColumnName="BookForma" />
+          <ScalarProperty Name="ReturnRate" ColumnName="ReturnRate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+          <ScalarProperty Name="BookOpnBalance" ColumnName="BookOpnBalance" />
+          <ScalarProperty Name="Commission" ColumnName="Commission" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="BookGroupID" ColumnName="BookGroupID" />
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="Tr_DBModel.Client">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="TrDate" ColumnName="TrDate" />
+          <ScalarProperty Name="ClientType" ColumnName="ClientType" />
+          <ScalarProperty Name="ClientOpnBalance" ColumnName="ClientOpnBalance" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Districts">
+      <EntityTypeMapping TypeName="Tr_DBModel.District">
+        <MappingFragment StoreEntitySet="Districts">
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tr_Details">
+      <EntityTypeMapping TypeName="Tr_DBModel.Tr_Details">
+        <MappingFragment StoreEntitySet="Tr_Details">
+          <ScalarProperty Name="Commission" ColumnName="Commission" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="BookGroupID" ColumnName="BookGroupID" />
+          <ScalarProperty Name="Tr_MasterID" ColumnName="Tr_MasterID" />
+          <ScalarProperty Name="Tr_DetailID" ColumnName="Tr_DetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tr_Masters">
+      <EntityTypeMapping TypeName="Tr_DBModel.Tr_Masters">
+        <MappingFragment StoreEntitySet="Tr_Masters">
+          <ScalarProperty Name="Commission" ColumnName="Commission" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="BindID" ColumnName="BindID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="ReturnLessMemoNo" ColumnName="ReturnLessMemoNo" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Less" ColumnName="Less" />
+          <ScalarProperty Name="PackDebit" ColumnName="PackDebit" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="MemoNo" ColumnName="MemoNo" />
+          <ScalarProperty Name="Tr_Date" ColumnName="Tr_Date" />
+          <ScalarProperty Name="Tr_MasterID" ColumnName="Tr_MasterID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Divisions">
+      <EntityTypeMapping TypeName="Tr_DBModel.Division">
+        <MappingFragment StoreEntitySet="Divisions">
+          <ScalarProperty Name="DivisionName" ColumnName="DivisionName" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

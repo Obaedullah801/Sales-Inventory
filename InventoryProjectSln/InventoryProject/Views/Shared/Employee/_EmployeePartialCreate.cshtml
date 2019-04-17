@@ -1,0 +1,155 @@
+﻿
+@using System.Web.Mvc.Html
+@model Models.ViewModels.Employee.EmployeeCreateVm
+
+<ul class="breadcrumb">
+    <li>
+        <i class="icon-home"></i>
+        <a href="~/DashBoard/DashBoard">Home</a>
+        <i class="icon-angle-right"></i>
+    </li>
+    <li><a href="#">Employee</a></li>
+</ul>
+
+<div class="box span4">
+    <div class="box-header" data-original-title>
+        <h2><i class="halflings-icon edit"></i><span class="break"></span>Employee Form</h2>
+        <div class="box-icon">
+            <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+            <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+            <a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+        </div>
+    </div>
+    <div class="box-content">
+        <form method="POST" id="EmployeeCreateForm">
+
+            <div class="container">
+
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, null, new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <label for="Name" class="col-md-4">Employee Name</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(c => c.Name, new { @class = "form-control input-xlarge", id = "OrgName" })
+
+                        </div>
+                        @Html.ValidationMessageFor(c => c.Name, null, new { @class = "help-inline", style = "color:red" })
+                    </div>
+                    <div class="form-group">
+                        <label for="Code" class="col-md-4">Employee Code</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(c => c.Code, new { @class = "form-control input-xlarge" })
+
+                        </div>
+                        @Html.ValidationMessageFor(c => c.Code, null, new { @class = "help-inline", style = "color:red" })
+                    </div>
+                    <div class="form-group">
+                        <label for="NationalId" class="col-md-2">National Id</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(c => c.NationalId, new { @class = "form-control input-xlarge" })
+                        </div>
+                        @Html.ValidationMessageFor(c => c.NationalId, null, new { @class = "help-inline", style = "color:red" })
+                    </div>
+                    <div class="form-group">
+                        <label for="ContactNo" class="col-md-2">Contact No</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(c => c.ContactNo, new { @class = "form-control input-xlarge" })
+                            @Html.ValidationMessageFor(c => c.ContactNo)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Logo" class="col-md-2">Email</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(c => c.Email, new { @class = "form-control input-xlarge" })
+                            @Html.ValidationMessageFor(c => c.Email)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Address" class="col-md-2">Address</label>
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(c => c.Address, new { @class = "form-control input-xlarge" })
+                            @Html.ValidationMessageFor(c => c.Address)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="BasicSalary" class="col-md-2">Basic Salary</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(c => c.BasicSalary, new { @class = "form-control input-xlarge" })
+                            @Html.ValidationMessageFor(c => c.BasicSalary)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="OpeningBalance" class="col-md-2">Opening Balance</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(c => c.OpeningBalance, new { @class = "form-control input-xlarge" })
+                            @Html.ValidationMessageFor(c => c.OpeningBalance)
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary col-md-offset-2" />
+                        <span class="custom_loader">
+                            <i class="fa fa-refresh fa-spin"></i>
+                            Saving please Wait ...
+                        </span>
+                        <div class="msgSaved" style="color: green" class="text-center"></div>
+                        <div class="msgNotSaved" style="color: red" class="text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div class="box span7">
+    <div class="box-header" data-original-title>
+        <h2><i class="halflings-icon user"></i><span class="break"></span>Last Five Entries Employee Details </h2>
+        <div class="box-icon">
+            <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+            <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+            <a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+        </div>
+    </div>
+    <div class="box-content">
+        <div id="EmployeeDetails">
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+
+
+        function EmployeeDetails() {
+
+            $.ajax({
+                type: "POST",
+                url: "../../Employee/GetEmployeeLastFive",
+                contentType: "application/JSON; charset=utf-8",
+                data: JSON.stringify(),
+                success: function (data) {
+
+                    $("#EmployeeDetails").html(data);
+                    $(".custom_loader").hide();
+
+                }
+
+            });
+
+        }
+
+        EmployeeDetails();
+
+
+    });
+
+
+
+    $.validator.unobtrusive.parse(document);
+</script>
+

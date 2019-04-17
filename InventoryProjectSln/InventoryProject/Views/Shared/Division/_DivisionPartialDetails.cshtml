@@ -1,0 +1,46 @@
+﻿
+
+<table class="table table-striped table-bordered bootstrap-datatable datatable">
+    <thead>
+        <tr>
+            <th>SL</th>
+            <th>DivisionName</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Divisions != null && Model.Divisions.Count> 0)
+        {
+            var id = 4;
+            foreach (var division in Model.Division)
+            {
+                <tr>
+                    
+                    <td>@(id--)</td>
+                    <td class="center">@division.DivisionId</td>
+                    <td class="center">@division.DivisionName</td>
+
+
+
+                    <td class="center" width="250">
+                        <a class="btn btn-success" href="/Division/Details/@division.Id">
+                            <i class="halflings-icon white zoom-in"></i>
+                        </a>
+                        <a class="btn btn-info" href="/Division/Edit/@division.Id">
+                            <i class="halflings-icon white edit"></i>
+                        </a>
+                        @*<a class="btn btn-danger" href="/Client/Delete/@client.Id">
+                                <i class="halflings-icon white trash"></i>
+                            </a>*@
+                    </td>
+                </tr>
+            }
+
+        }
+
+
+    </tbody>
+</table>
+
+
+

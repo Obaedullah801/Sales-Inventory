@@ -1,0 +1,385 @@
+﻿@model IEnumerable<inventoryproject.models.tr_masters>
+
+    @{
+        ViewBag.Title = "OrderAndCustomer";
+    }
+    <body style="background-color:#f8eeee">
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <div class="panel panel-default" style="background-color:#f8b1b1; width:100%">
+            <div class="panel-heading">
+                <div class="row" style="float:left">
+                    <h3 class="panel-title pull-left" style="margin-left:20px;">
+                        <strong>Order Details</strong>
+                    </h3>
+
+                </div>
+                <div style="float:right">
+                    <button style="margin-right:10px" class="btn btn-primary pull-right" onclick="addNewOrder()">New Order</button>
+                </div>
+            </div>
+
+            @*Receive All Database Data From Controller And Display Those Data In Client Side*@
+
+            @if (Model.Count() != 0)
+            {
+                foreach (var item in Model)
+                {
+                    <div class="panel-body">
+                        <table class="table table-striped table-responsive">
+                            <tbody>
+                                <tr style="width:100px">
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red"> MR No : </p>@item.InvoiceNo </td>
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red">Memo No: </p>@item.MemoNo </td>
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red">Less: </p>@item.Less </td>
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red">Type: </p>@item.Type </td>
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red">Commission: </p>@item.Commission </td>
+                                    <td style="width: 300px; background-color: rgb(0, 255, 33); color: black; border: 1px solid yellow"><p style="color:red">Order Date: </p>@item.Tr_Date</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <table class="table table-bordered">
+                                            <tbody>
+                                                <tr>
+                                                    <th>BookID</th>
+                                                    <th>BookName</th>
+                                                    <th>BookGroupID</th>
+                                                    <th>BookGroupName</th>
+                                                    <th>Quantity</th>
+                                                    <th>Unit Price</th>
+                                                    <th>Commission</th>
+                                                    <th>Total</th>
+                                                </tr>
+                                                @{
+                    var totalBill = 0;
+                                                }
+                                                @foreach (var order in item.Tr_Details)
+                                                {
+                                                    <tr>
+                                                        <td>@order.BookID</td>
+                                                        <td>@order.Book.BookName</td>
+                                                        <td>@order.BookGroupID</td>
+                                                        <td>@order.BookGroup.MainBookName</td>
+                                                        <td>@order.Qty</td>
+                                                        <td>@order.Rate</td>
+                                                        <td>@order.Commission</td>
+                                                        <td>@order.Amount</td>
+                                                    </tr>
+                                                    //totalBill = totalBill + @Convert.ToInt32(order.Qty * order.Rate);
+                                                    totalBill = totalBill + @Convert.ToInt32(order.Amount);
+                                                }
+                                            </tbody>
+                                        </table>
+                                        @* <span class="pull-right" style="margin-right:100px;"><strong>Total Bill :  </strong>@totalBill</span>*@
+                                        <span class="pull-right" style="margin-right:100px;"><strong>Total Bill :  </strong> @totalBill</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            }
+
+            else
+            {
+                <div class="panel-body">
+                    <br />
+                    <br />
+                    <h3 style="color:red;">Empty!</h3>
+                </div>
+
+            }
+        </div>
+
+        <div class="modal fade" id="newOrderModal">
+            <div class="modal-dialog modal-lg" style=" width: 1000px !important;">
+                <div class="modal-content">
+                    <div class="" style="background-color:#0094ff">
+                        <h4 style="align-content:center; color:white;float:left; margin-left:10px">Sales Form</h4>
+                        <a href="#" class="close" data-dismiss="modal" style="float:right; margin-right:10px; margin-top:5px; color:#ff0000">&times;</a>
+                        <h5 style="color:white; float:right; margin-top:5px; margin-right:5px">Add New Order</h5>
+                    </div>
+                    <form id="NewOrderForm" style="background-color: #00ffff; border-bottom: 2px solid black">
+                        <div class="modal-body" style="background-color:#00ffff;">
+                            @*Customer Details*@
+                            @*<h6 style="color:#0094ff;">Customer Details</h6>*@
+                            @*<hr style="color:rgb(0, 255, 33)" />*@
+                            <div class="form-horizontal">
+                                <input type="hidden" id="CustomerId" />
+                                <div class="form-group">
+                                    <fieldset>
+                                        <legend style="color:red">Customer Details</legend>
+                                        <label class="control-label col-md-2" style="float:left">
+                                            Date:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <input type="text" id="Date" name="Date" placeholder="Date" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                            <span class="error">Valid Order Date required(ex: MM-dd-yyyy)</span>
+                                        </div>
+
+
+
+                                        <label class="control-label col-md-2" style="float:left">
+                                            Party Code:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <select id="clientID" name="clientID" class="form-control"><option>Select</option></select>
+                                        </div>
+
+                                        <label class="control-label col-md-2" style="float:left">
+                                            MR No:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <input type="text" id="invoiceNo" name="invoiceNo" placeholder="Invoice No" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                        </div>
+                                        <br />
+                                        <br />
+                                        <label class="control-label col-md-2" style="float:left">
+                                            District:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <input type="text" id="District" name="invoiceNo" placeholder="District" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                        </div>
+
+                                        @*<div class="col-md-4" style="float:left">
+                                                <input id="grandTotal" placeholder="" class="form-control" />
+                                            </div>*@
+                                        <label class="control-label col-md-2" style="float:left">
+                                            Memo No:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <input type="text" id="memoNo" name="memoNo" placeholder="Memo No" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                        </div>
+                                        <label class="control-label col-md-2" style="float:left">
+                                            Type:
+                                        </label>
+                                        <div class="col-md-2" style="float:left">
+                                            <input type="text" id="salesType" name="salesType" placeholder="Type" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                        </div>
+                                    </fieldset>
+                                    <hr />
+                                    <label class="control-label col-md-2" style="float:left; margin-right: 15px">
+                                        GrandTotal:
+                                    </label>
+                                    <div id="grandTotal" style="height:30px; width:120px; float:left" class="form-control">
+
+                                    </div>
+                                    <label class="control-label col-md-1" style="float:left; margin-right:35px">
+                                        Commission:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="commission2" name="commission2" placeholder="%" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                    </div>
+                                    <label class="control-label col-md-1" style="float: left; font-size: 15px; margin-left: 60px; margin-right: 20px">
+                                        SubTotal:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="subTotal" value="" style="float:left; height:30px; width:120px; font-size:15px" class="form-control">
+                                    </div>
+                                    <br />
+                                    <br />
+                                    <label class="control-label col-md-1" style="float:left">
+                                        Less:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="number" id="less" name="less" value="" placeholder="less" class="form-control" style="height:30px; width:120px">
+                                        @*<input type="text" id="invoiceNo" name="invoiceNo" placeholder="Invoice No" class="form-control" style="height:30px; width:120px; font-size:10px" />*@
+                                    </div>
+
+                                    <label class="control-label col-md-1" style="float:left">
+                                        Return:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="itemReturn" name="itemReturn" value="" placeholder="Return" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                    </div>
+
+                                    <label class="control-label col-md-1" style="float:left">
+                                        Packing:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="invoiceNo" name="invoiceNo" placeholder="Packing" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                    </div>
+                                    <label class="control-label col-md-1" style="float:left">
+                                        NetAmount:
+                                    </label>
+                                    <div class="col-md-2" style="float:left">
+                                        <input type="text" id="netAmount" value="" placeholder="NitBill" class="form-control" style="height:30px; width:120px; font-size:10px" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+
+                            @*Order Details*@
+                            <hr />
+                            <h5 style="margin-top:10px;color:#ff6347">Order Details</h5>
+
+                            <div class="form-horizontal">
+                                <input type="hidden" id="OrderId" />
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2" style="float:left">
+                                        Book Name
+                                    </label>
+                                    <div class="col-md-3" style="float:left">
+                                        <select id="BookID" class="form-control" name="BookName"> <option>---Select---</option></select>
+                                    </div>
+                                    @*<div>
+                                            <input type="text" id="BookName" name="Name" placeholder="" class="form-control" hidden="hidden" />
+                                        </div>*@
+                                    <label class="control-label col-md-2" style="float:left">
+                                        Book Group
+                                    </label>
+                                    <div class="col-md-3" style="float:left">
+                                        <select id="BookGroupID" class="form-control" name="MainBookName"> <option>---Select---</option></select>
+                                    </div>
+                                    @*<div>
+                                            <input type="text" id="BookGroupID" name="Name" placeholder="" class="form-control" hidden="hidden" />
+                                        </div>*@
+                                    <br />
+                                    <br />
+                                    <label class="control-label col-md-2" style="float:left">
+                                        Price
+                                    </label>
+                                    <div class="col-md-3" style="float:left">
+                                        <input type="number" id="price" name="price" placeholder="Product Price" class="form-control" />
+                                    </div>
+                                    <label class="control-label col-md-2" style="float:left">
+                                        Quantity
+                                    </label>
+                                    <div class="col-md-3" style="float:left">
+                                        <input type="number" id="quantity" name="quantity" placeholder="Quantity" class="form-control" />
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <label class="control-label col-md-2" style="float:left">
+                                    Commission:
+                                </label>
+                                <div class="col-md-3" style="float:left">
+                                    <input type="number" id="commission" name="commission" placeholder="Commission" class="form-control " />
+                                </div>
+
+                                <div class="col-md-2 col-lg-offset-4" style="float:right">
+                                    <a id="addToList" class="btn btn-primary">Add To List</a>
+                                </div>
+
+
+                                <table id="detailsTable" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:20%">BookCode</th>
+                                            <th style="width:20%">BookName</th>
+                                            <th style="width:20%">GroupCode</th>
+                                            <th style="width:20%">BookGroup</th>
+                                            <th style="width:10%">Rate</th>
+                                            <th style="width:15%">Qty</th>
+                                            <th style="width:15%">(%)</th>
+                                            <th style="width:15%">Total</th>
+                                            <th style="width:10%"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="" style="float:right">
+                            <button type="reset" class="btn btn-default" data-dismiss="modal" style="color:red; margin-bottom:20px">Close</button>
+                            <button id="saveOrder" type="submit" class="btn btn-default" style="border: White; color: #0026ff; margin-bottom: 20px; margin-right:20px">Save Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        @section scripts{
+            <script src="~/Scripts/CustomiseScripts/Book.js"></script>
+            <script src="~/Scripts/CustomiseScripts/BookGroup.js"></script>
+            <script src="~/Scripts/sub.js"></script>
+            @*<script src="~/Scripts/CustomiseScripts/BookGroup.js"></script>*@
+
+
+            <script>
+
+
+
+                //Show Modal.
+                function addNewOrder() {
+                    $("#newOrderModal").modal();
+                }
+
+                // After Add A New Order In The List, If You Want, You Can Remove It.
+                $(document).on('click', 'a.deleteItem', function (e) {
+                    e.preventDefault();
+                    var $self = $(this);
+                    if ($(this).attr('data-itemId') == "0") {
+                        $(this).parents('tr').css("background-color", "#ff6347").fadeOut(800, function () {
+                            $(this).remove();
+                        });
+                    }
+                });
+
+                //After Click Save Button Pass All Data View To Controller For Save Database
+                function saveOrder(data) {
+                    return $.ajax({
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        type: 'POST',
+                        url: "/Tr_Masters/SaveOrder",
+                        data: data,
+                        success: function (result) {
+                            alert(result);
+                            location.reload();
+                        },
+                        error: function () {
+                            alert("Error!")
+                        }
+                    });
+                }
+                //Collect Multiple Order List For Pass To Controller
+                $("#saveOrder").click(function (e) {
+                    e.preventDefault();
+
+                    var orderArr = [];
+                    orderArr.length = 0;
+
+                    $.each($("#detailsTable tbody tr"), function () {
+                        orderArr.push({
+                            BookID: $(this).find('td:eq(0)').html(),
+                            BookName: $(this).find('td:eq(1)').html(),
+                            BookGroupID: $(this).find('td:eq(2)').html(),
+                            MainBookName: $(this).find('td:eq(3)').html(),
+                            ClientID: $(this).find('td:eq(4)').html(),
+                            Qty: $(this).find('td:eq(5)').html(),
+                            Rate: $(this).find('td:eq(6)').html(),
+                            Commission: $(this).find('td:eq(7)').html(),
+                            Amount: $(this).find('td:eq(8)').html()
+
+                        });
+                    });
+
+
+                    var data = JSON.stringify({
+                        invoiceNo: $("#invoiceNo").val(),
+                        memoNo: $("#memoNo").val(),
+                        less: $("#less").val(),
+                        salesType: $("#salesType").val(),
+                        commission2: $("#commission").val(),
+                        clientID: $("#clientID").val(),
+                        Tr_Detail: orderArr
+                    });
+
+                    $.when(saveOrder(data)).then(function (response) {
+                        console.log(response);
+                    }).fail(function (err) {
+                        console.log(err);
+                    });
+                });
+
+
+
+            </script>
+        }
+
+    </body>
